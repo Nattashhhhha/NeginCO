@@ -19,6 +19,7 @@ const FactoriesCard = ({ factor}) => {
         background: "#1d1836",
         color: "#fff",
             }}
+            style={{direction : 'ltr'}}
       contentArrowStyle={{ borderLeft: "7px solid  #232631" }}
       date={factor.date}
       iconStyle={{ background: factor.iconBg }}
@@ -59,7 +60,8 @@ const FactoriesCard = ({ factor}) => {
 const Factory = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+
+    <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
           کارخانه ها
         </p>

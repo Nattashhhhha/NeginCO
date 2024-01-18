@@ -1,4 +1,4 @@
-import { Factory, Casting, Furnace, Completion , stt , fur , lightMill , cast } from "../assets";
+import { Factory, Casting, Furnace, Completion , stt , fur , lightMill , cast , instagram , linkedin , telegram , phone , email , twitter, Lab , Meta , Furna , mec} from "../assets";
 
 export const navLinks = [
   {
@@ -100,4 +100,109 @@ const Factories = [
     ],
   },
 ];
-export { services , Factories };
+
+const technologies = [
+  {
+    name: "Instagram",
+    title: "Instagram",
+    icon: instagram,
+  },
+  {
+    name: "Linkedin",
+    title: "Linkedin",
+    icon: linkedin,
+  },
+  {
+    name: "Twitter",
+    title: "Twitter",
+    icon: twitter,
+  },
+  {
+    name: "Telegram",
+    title: "Telegram",
+    icon: telegram,
+  },
+  {
+    name: "Phone",
+    title: "Phone",
+    icon: phone,
+  },
+  {
+    name: "Email",
+    title: "Email",
+    icon: email,
+  },
+  
+];
+
+const testimonials = [
+  {
+    testimonial: "",
+    name: "کوره گامی",
+    designation: "(Reheating Walking Beam Furnace)",
+  },
+  {
+    testimonial: "",
+    name: "بستر خنک کننده در هوا",
+    designation: "(cooling in air)",
+  },
+  {
+    testimonial: "",
+    name: "کوئنچ در آب",
+    designation: "(water quench)",
+  },
+  {
+    testimonial: "",
+    name: "آنیل توده ای",
+    designation: "(pack annealing)",
+  },
+  {
+    testimonial: "",
+    name: " قفسه نورد رفت و برگشتی",
+    designation: "(Roughing)",
+  },
+  {
+    testimonial: "",
+    name: "کوره نگهدارنده",
+    designation: "(Holding Furnace)",
+  },
+  {
+    testimonial: "",
+    name: "تراش غلتک های نورد",
+    designation: "CNC",
+  },
+  {
+    testimonial: "",
+    name: "تجهیزات ترمکس",
+    designation: "",
+  },
+];
+const projects = [
+  {
+    name: "آزمایشگاه طیف سنجی",
+    description:
+      "آزمایشگاه طیف سنجی این آزمایشگاه با استفاده از تجهیزات پیشرفته زیر قادر به تشخیص و تعیین غلظت عناصر و تعیین جنس فلزات و آلیاژهایشان می باشد. دستگاه کوانتومتر توانایی اندازه گیری ۲۸ عنصر در فولاد و ۲۲ عنصر در چدن با حد تشخیص ppm دو دستگاه دستگاههای لکو : Leco) جهت اندازه گیری کربن سولفور ،اکسیژن ،نیتروژن هیدروژن رطوبت و کربن سطح در محدوده ppm",
+
+    image: Lab,
+  },
+  {
+    name: "آزمایشگاه متالوگرافی",
+    description:
+      "آزمایشگاه متالوگرافی با استفاده از تجهیزات مدرن و دقیق زیر قادر به تعیین ساختار ماکروسکوپی یا میکروسکوپی قطعات فلزی و تعیین اندازه دانه ها تعیین ناخالصی تعیین توزیع و اندازه گاربید و عمق دکربوره می باشد میکروسکوپ نوری با بزرگنمایی تا ۲۸۰۰ و دوربینهای عکاسی و ویدیوئی (۱) دستگاه بررسی مقاطع شکست بصورت سه بعدی با میکروسکوپ استریو آنالیز تصویری با میکروسکوپ Leica و امکان تعیین ناخالصی طبق استانداردهای مختلف JIS, ASTM DIN",
+    image: Meta,
+  },
+  {
+    name: "آزمایشگاه عملیات حرارتی",
+    description:
+      "آزمایشگاه عملیات حرارتی امکان انجام آزمایش سختی پذیری به روش جمینی با کوره 1100 C و سختی سنج راکول ساخت EMCO و نرم افزارهای لازم برای ترسیم منحنی سختی پذیری امکان عملیات حرارتی سیکلهای مختلف با دمای 500 تا 1550 C",
+    image: Furna,
+  },
+  {
+    name: "آزمایشگاه خواص مکانیکی",
+    description:
+      " /   آزمایشگاه خواص مکانیکی سختی سنجی ،برینل راکول ویکرز یونیورسال دستگاه آماده سازی نمونه اتوماتیک کارگاه آماده سازی نمونه",
+    image: mec,
+  },
+];
+
+export { services , Factories , testimonials ,technologies, projects };

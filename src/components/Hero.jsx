@@ -2,26 +2,15 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 
+
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
         className={`absolute inset-0 bottom-[100px] max-w-7xl mx-auto ${styles.paddingY} flex flex-row items-end gap-5 `}
       >
-        <div>
-          <h1 id="hero-h1" className={`${styles.heroHeadText}`}>
-            NEGIN STEEL
-          </h1>
-          <p id="hero-p" className={`${styles.heroSubText}`}><br className='block hidden' />
-            NEGIN STEEL
-          </p>
-          <p id="hero-p" className={`${styles.heroSubText}`}><br className='block hidden' />
-            NEGIN STEEL
-          </p>
-          
-        </div>
+        
       </div>
-
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>

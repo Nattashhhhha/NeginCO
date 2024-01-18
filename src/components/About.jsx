@@ -38,12 +38,12 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>درباره ی ما</p>
-        <h2 className={styles.sectionHeadText}>شرکت فولاد آلیاژی نگین مشهد</h2>
+        <p className={`${styles.sectionSubText} text-center `}>درباره ی ما</p>
+        <h2 className={`${styles.sectionHeadText} text-center `}>شرکت فولاد آلیاژی نگین مشهد</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[35px]"
+        className="mt-4 text-secondary text-[17px]  leading-[35px]"
       >
         شرکت فولاد آلیاژی نگین مشهد بزرگترین تولیدکننده انواع فولاد آلیاژی در
         ایران در بخش خصوصی بوده و یکی از مدرن ترین کارخانجات فولاد آلیاژی ایران
@@ -58,7 +58,7 @@ const About = () => {
         که در سال 1397 در استان خراسان به بهره برداری رسید
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-16 mr-5">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
